@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace Assignment18
+namespace Assignment16
 {
 public class Character
 {
@@ -42,7 +42,7 @@ public class Character
     public virtual void DisplayInfo()
     {
         Debug.Log("Player is: "+ name + "its health: "+ health );
-        position.PrintPosition;
+    // position.PrintPosition;
     }
 
      public void Attack(int damage, Character target)
