@@ -1,18 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class GameUtils : MonoBehaviour
+namespace Assignment18
 {
-    // Start is called before the first frame update
-    void Start()
+public class GameUtils 
+{
+    public static void DescribeItem <T> (T Something) 
     {
-        
+        Debug.Log("This item is: " + Something);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+}
 }
